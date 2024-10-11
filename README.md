@@ -3,13 +3,13 @@ Author: Elizabeth Yates
 
 In this repository, I completed the following assignment: 
 
-## 1. Exploring Web Technologies and Python Programming
+## 1. Exploring Web Technologies and Python Programming (pokemon_api.py)
 
 **Objective:** The aim of this assignment is to deepen your understanding and practical skills in web technologies and Python programming. You will explore the functionalities of the World Wide Web, web architectures, and the Python programming language, particularly focusing on setting up environments, API interactions, and data handling.
 
 **Problem Statement:** You are tasked with creating a Python application that interfaces with a public API, fetches data, and processes it. This application should provide insights into how different web architectures work and demonstrate your ability to set up a Python environment, make API requests, and handle JSON data.
 
-### Task 1: Setting Up a Python Virtual Environment and Installing Packages
+### Task 1: Setting Up a Python Virtual Environment and Installing Packages (poke_env)
 
 1. Create a new Python virtual environment in your project directory.
 2. Activate the virtual environment.
@@ -28,7 +28,9 @@ In this repository, I completed the following assignment:
 
 1. Modify the script to fetch data for three different Pokémon.
 2. Create a function to calculate and return the average weight of these Pokémon.
-3. Print the names, abilities, and average weight of the three Pokémon. **Code Example:**
+3. Print the names, abilities, and average weight of the three Pokémon. 
+
+**Code Example:**
 
     def fetch_pokemon_data(pokemon_name):
         return #json response
@@ -40,7 +42,7 @@ In this repository, I completed the following assignment:
 
 **Expected Outcome:** The script should display the names and abilities of the three chosen Pokémon and their average weight. The function should correctly calculate and return the average weight based on the data fetched from the API. 
 
-## 2. Exploring the Digital Cosmos with Python and the Web
+## 2. Exploring the Digital Cosmos with Python and the Web (planets_api.py)
 
 **Problem Statement:** Imagine you are a developer tasked with creating a feature for a web application that provides users with insightful information about various space objects. Your application will fetch data from a publicly available space API, process this data, and display it in a user-friendly format.
 
@@ -59,7 +61,7 @@ In this repository, I completed the following assignment:
 
 **Code Example:**
 
-import requests
+    import requests
 
     def fetch_planet_data():
         url = "https://api.le-systeme-solaire.net/rest/bodies/"
@@ -92,6 +94,7 @@ import requests
 - Perform a simple analysis, such as finding the planet with the longest orbit period or the heaviest planet. 
 
 **Code Example:**
+    
     import requests
 
     def fetch_planet_data():

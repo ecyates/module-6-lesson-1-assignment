@@ -43,8 +43,8 @@ def find_heaviest_planet(planet_list):
         if (float(heaviest_planet['mass'])<=float(planet['mass'])):
             heaviest_planet = planet
     # Return heaviest planet
-    print(f"The heaviest planet is {heaviest_planet['name']} with a mass of {heaviest_planet['mass']:.2f}.")       
-    return heaviest_planet
+    return heaviest_planet['name'], heaviest_planet['mass']
 
 planet_list = fetch_planet_data()
-find_heaviest_planet(planet_list)
+name, mass = find_heaviest_planet(planet_list)
+print(f"The heaviest planet is {name} with a mass of {mass:.2f}.")       
